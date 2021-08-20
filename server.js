@@ -3,7 +3,7 @@ const app = express();
 
 app.get("/", (Request, response) => {
     response.sendFile("helo world"
-        indegitx.html);
+        index.html);
 });
 
 const PORT = process.env.PORT || 5000;
