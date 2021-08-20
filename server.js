@@ -1,8 +1,9 @@
 const express = require("express");
 const app = express();
 
-app.get("/index.html", (Request, response) => {
-    response.sendFile(index.html);
+app.get("/", (Request, response) => {
+    response.sendFile("helo world"
+        indegitx.html);
 });
 
 const PORT = process.env.PORT || 5000;
