@@ -2,8 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (Request, response) => {
-    response.sendFile("helo world"
-        index.html);
+    response.send('helo world');
 });
 
 const PORT = process.env.PORT || 5000;
