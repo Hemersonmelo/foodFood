@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (Request, response) => {
-    response.send('agora foi');
+    response.sendFile("index.html")
 });
 
 const PORT = process.env.PORT || 5000;
