@@ -78,7 +78,7 @@ function getMealList() {
         });
 }
 
-/** função showPage 
+/** função mostrar paginas
  * objetivo: mostrar página selecionada e esconder página corrente  
  * 
  * */
@@ -101,7 +101,7 @@ function getMealRecipe(e) {
     }
 }
 
-// criação do Modal
+//  Modal
 function mealRecipeModal(meal) {
     console.log(meal);
     meal = meal[0];
