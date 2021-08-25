@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 //const path = require('path');
 
-app.get("/", (Request, response) => {
+app.get("/", (Req, res) => {
 
     return response.sendFile(index.html);
 });
